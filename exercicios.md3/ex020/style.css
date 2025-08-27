@@ -54,9 +54,22 @@ section.normal {
     background-color: white;
     color: black;
 }
+section#img001 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+}
+section#img002 {
+    background-image: url(imagens/background002.jpg);
+}
+section > div > p {
+    background-color: blueviolet;
+}
+
 section.imagem {
     background-color: aqua;
     color: white;
+    background-attachment: fixed;
+    background-size: cover;
 
 }
 section.imagem > p {
