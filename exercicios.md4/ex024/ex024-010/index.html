@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Teste de formulário</h1>
+    <form action="cadastro.js" method="post" autocomplete="on">
+        <p>
+            <label for="test">Estado</label>
+            <select name="estado" id="itest">
+                <optgroup label="Estados">
+                    <option value="CE">Ceará</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="MA">Maranhão</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="iprof" id="iprof" list="listdata">
+            <datalist id="listdata">
+                <option value="ES">Engenharia de Software</option>
+                <option value="ADS">Análise e desenvolvimento de sistemas</option>
+                <option value="CC">Ciências da Computação</option>
+                <option value="EC">Engenharia da Computação</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="imsg">Mensagem</label><br>
+            <textarea name="msg" id="imsg" cols="30" rows="10"> </textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+             <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
