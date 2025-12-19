@@ -1,5 +1,40 @@
 @charset "UTF-8";
 
 body,html {
-    background-color: lightblue;
+    background-color: rgb(170, 170, 170);
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header {
+    background-color: rgb(2, 2, 2);
+    display: block;
+    text-align: center;
+    color: white;
+}
+
+span#burguer {
+    width:90vw; 
+    background-color: rgb(184, 184, 184);
+}
+span#burguer:hover {
+    background-color: aliceblue;
+    color: rgb(167, 167, 167);
+}
+menu {
+    display: none;
+}
+ul > li {
+    background-color: rgb(112, 112, 112);
+    width: 90vw;
+    display: inline-block;
+    border: 1px solid black;
+}
+ul > li > a {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    width: 100vw;
 }
