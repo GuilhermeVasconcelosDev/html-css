@@ -40,4 +40,17 @@ div#imagem {
 div#forms {
     display: block;
     padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+div#forms > h1 {
+    font-size: 1.8em;
+    margin: 3px;
+}
+div#forms > p {
+    font-size: 1.2em;
+}
+form > input[type=submit] {
+    display: block;
 }
