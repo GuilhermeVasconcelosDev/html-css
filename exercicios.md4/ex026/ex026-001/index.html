@@ -18,8 +18,10 @@
                 <h1>login</h1>
                 <p>Seja bem vindo Code Friend!</p>
                 <form action="cadastro.js" method="post" autocomplete="on">
-                    <span class="material-symbols-outlined">account_circle</span>
+                    
+                    
                     <div class="campo">
+                        <label for="iemail">Login</label>
                         <input 
                         type="email" 
                         name="email" 
@@ -29,10 +31,11 @@
                         required
                         maxlength="20"
                         >
-                        <label for="iemail">Login</label>
+                        <span class="material-symbols-outlined">account_circle</span>
                     </div>
-                    <span class="material-symbols-outlined">key</span>
+                    
                     <div class="campo">
+                        <label for="isenha">Senha</label>
                         <input 
                         type="password" 
                         name="senha" 
@@ -42,7 +45,8 @@
                         minlength="8"
                         maxlength="12"
                         >
-                        <label for="isenha">Senha</label>
+                        <span class="material-symbols-outlined">key</span>
+                        
                     </div>
                     <input type="submit" value="Entrar">
                     <a href="#">Recuperar senha</a>
